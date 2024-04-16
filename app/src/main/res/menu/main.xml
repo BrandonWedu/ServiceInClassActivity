@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_start"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="Start"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_pause"
+        android:icon="@android:drawable/ic_media_pause"
+        android:title="Pause"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_stop"
+        android:icon="@android:drawable/picture_frame"
+        android:title="Stop"
+        app:showAsAction="ifRoom" />
+</menu>
